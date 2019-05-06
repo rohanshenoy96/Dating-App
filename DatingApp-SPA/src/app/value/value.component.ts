@@ -18,16 +18,16 @@ export class ValueComponent implements OnInit {
   }
 
   getValues() {
-    this.http.get(this.basUrl)
-      .subscribe(
-        (data) => {
-          console.log(data);
-          this.values = data;
-        },
-        (error) => {
-          console.log(error)
-        }
-      )
+    // this.http.get(this.basUrl)
+    //   .subscribe(
+    //     (data) => {
+    //       console.log(data);
+    //       this.values = data;
+    //     },
+    //     (error) => {
+    //       console.log(error)
+    //     }
+    //   )
   }
 
 }
